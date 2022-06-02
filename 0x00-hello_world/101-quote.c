@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main(char *argv[], int argc)
 {
 /**
  * main - Entry point
