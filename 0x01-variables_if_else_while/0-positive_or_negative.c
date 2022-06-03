@@ -29,14 +29,14 @@ printf("\n\nNegative Number you entered are : \n");
 for(n = 0; n <= 4; n++)
 {
 if(num[n]<0)
-printf("%d, ", num[n]);
+printf("%d, is negative ", num[n]);
 }
 /*positive*/
 printf("\n\nPositive Number you entered are : \n");
 for(n = 0; n <= 4; n++)
 {
 if(num[n]>0)
-printf("%d, ", num[n]);
+printf("%d, is positive ", num[n]);
 }
 return (0);
 }
