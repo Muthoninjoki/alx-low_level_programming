@@ -14,29 +14,12 @@ int n,num[5];
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-printf("Enter number : ");
-for(n = 0; n <= 4; n++)
+if(n>0)
 {
-scanf("%d", &num[n]);
-}
-printf("\n\nnumber you entered are : \n");
-for(n = 0; n <= 4; n++)
+printf("%d is positive\n",n);
+} else if(n<0)
 {
-printf("%d, ", num[n]);
-}
-/*negative*/
-printf("\n\nNegative Number you entered are : \n");
-for(n = 0; n <= 4; n++)
-{
-if(num[n]<0)
-printf("%d, is negative ", num[n]);
-}
-/*positive*/
-printf("\n\nPositive Number you entered are : \n");
-for(n = 0; n <= 4; n++)
-{
-if(num[n]>0)
-printf("%d, is positive ", num[n]);
+printf("%d is negative\n",n);
 }
 return (0);
 }
