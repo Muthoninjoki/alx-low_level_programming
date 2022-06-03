@@ -15,24 +15,28 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 printf("Enter Array elements : ");
-for(n=0; n<=4; n++){
-scanf("%d",&num[n]);
+for(n = 0; n <= 4; n++)
+{
+scanf("%d", &num[n]);
 }
 printf("\n\nnumber you entered are : \n");
-for(n=0; n<=4; n++){
-printf("%d, ",num[n]);
+for(n = 0; n <= 4; n++)
+{
+printf("%d, ", num[n]);
 }
 /*negative*/
 printf("\n\nNegative Number you entered are : \n");
-for(n=0; n<=4; n++){
+for(n = 0; n <= 4; n++)
+{
 if(num[n]<0)
-printf("%d, ",num[n]);
+printf("%d, ", num[n]);
 }
 /*positive*/
 printf("\n\nPositive Number you entered are : \n");
-for(n=0; n<=4; n++){
+for(n = 0; n <= 4; n++)
+{
 if(num[n]>0)
-printf("%d, ",num[n]);
+printf("%d, ", num[n]);
 }
 return (0);
 }
