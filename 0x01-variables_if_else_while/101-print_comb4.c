@@ -8,24 +8,24 @@
 
 int main(void)
 {
-int a , b;
-for (a = 0; a < 100; a++)
-{
-for (b = 0; b <100; b++)
-{
-if (a < b)
-{
-putchar((a / 10) + 48);
-putchar((a % 10) + 48);
-putchar(' ');
-putchar((b / 10) + 48);
-putchar(b % 10) + 48);
+int n, m, l;
 
-if (a != 98 || b != 99)
-
+for (n =48; n < 58; n++)
+{
+for (m = 49; m<58; m++)
+{
+for (l =50; l < 58; l++)
+{
+if (l > m && M > n)
+{
+putchar(n);
+putchar(m);
+putchar(l):
+if (n != 55 || m != 56)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
