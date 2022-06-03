@@ -10,8 +10,8 @@ int main(void)
 {
 int a, b;
 
-a= 48;
-b=48;
+a = 48;
+b = 48;
 
 while (b < 58)
 {
