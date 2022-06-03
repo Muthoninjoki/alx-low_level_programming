@@ -12,7 +12,7 @@ int main(void)
 int n;
 char ch;
 
-for (n = 1; n < 11; n++)
+for (n = 11; n < 21; n++)
 {
 putchar(n);
 }
