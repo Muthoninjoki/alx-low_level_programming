@@ -14,7 +14,7 @@ int n,num[5];
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-printf("Enter Array numbers : ");
+printf("Enter number : ");
 for(n = 0; n <= 4; n++)
 {
 scanf("%d", &num[n]);
