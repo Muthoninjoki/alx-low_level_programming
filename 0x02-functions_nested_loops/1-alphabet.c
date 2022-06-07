@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
- * main - check the code
+ * main - check code
  *
- * print_alphabet() - prints a to z
+ * print alphabet ()
  *
  * Return: Always 0
  */
