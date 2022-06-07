@@ -2,7 +2,8 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
+ * main - check the code
+ *
  * print_alphabet - check code
  *
  * Return: on success 0
