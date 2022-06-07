@@ -2,11 +2,9 @@
 #include <unistd.h>
 
 /**
- * main - check code
+ * Print_alphabet - prints alphabet
  *
- * print alphabet ()
- *
- * Return: Always 0
+ * Description: prints the alphabet in lowercase
  */
 
 void print_alphabet(void)
@@ -14,7 +12,7 @@ void print_alphabet(void)
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
-	_putchar(ch);
+_putchar(ch);
 }
 _putchar('\n');
 
