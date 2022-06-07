@@ -3,19 +3,19 @@
 /**
  * main - check code
  *
+ * Description: prints _putchar followed by a new line
+ *
  * Return: Always 0
  */
 
 int main(void)
 {
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
+char ch[8] = "_putchar";
+int a;
+for (a = 0; a < 8; a++)
+{
+_putchar(ch[a]);
+}
 _putchar('\n');
-
 return (0);
 }
