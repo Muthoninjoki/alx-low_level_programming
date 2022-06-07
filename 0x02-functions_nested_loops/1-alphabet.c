@@ -8,7 +8,7 @@
  * Return: on success 0
  * on error, -1 is returned, and error is set appropriately
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 char ch;
 for(ch = 'a'; ch <= 'z'; ch++){
