@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * Print_alphabet - prints alphabet
+ * print_alphabet - prints alphabet
  *
  * Description: prints the alphabet in lowercase
  */
