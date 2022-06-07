@@ -6,7 +6,6 @@
  * Description: computes the absolute value of an integer
  *
  * Return: 0
- * @int:input
  * @n:input
  */
 
