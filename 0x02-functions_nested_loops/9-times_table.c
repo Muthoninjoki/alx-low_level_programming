@@ -32,6 +32,5 @@ _putchar(result / 10 + '0');
 _putchar(result % 10 + '0');
 }
 _putchar(0);
-return (0);
 }
 }
