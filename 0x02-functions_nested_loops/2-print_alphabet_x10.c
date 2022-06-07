@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main - check the code
+ * print_alphabet_x10 - print alphabet
  * Description: prints alphabet 10 times
  * Return: Always 0
  */
