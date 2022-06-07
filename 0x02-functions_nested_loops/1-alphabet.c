@@ -6,7 +6,6 @@
  *
  * print_alphabet - check code
  *
- * Return: on success 0
  */
 
 void print_alphabet(void)
