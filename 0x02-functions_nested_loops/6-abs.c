@@ -7,6 +7,7 @@
  *
  * Return: 0
  * @int:input
+ * @n:input
  */
 
 int _abs(int)
