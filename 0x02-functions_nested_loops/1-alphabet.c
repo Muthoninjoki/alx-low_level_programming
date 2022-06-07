@@ -2,8 +2,9 @@
 #include <unistd.h>
 
 /**
- * print_alphabet
- * @c: The character to print
+ * main - Entry point
+ * print_alphabet - check code
+ *
  * Return: on success 0
  * on error, -1 is returned, and error is set appropriately
  */
