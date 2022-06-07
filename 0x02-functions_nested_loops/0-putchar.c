@@ -9,7 +9,7 @@
  * Return: Always 0
  */
 
-int _putchar(char c)
+int main(void)
 
 {
 char c[8] = "_putchar";
