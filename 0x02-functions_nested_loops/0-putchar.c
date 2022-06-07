@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unidstd>
 
 /**
  * main - check code
@@ -8,7 +9,8 @@
  * Return: Always 0
  */
 
-int main(void)
+int _putchar(char c)
+
 {
 char ch[8] = "_putchar";
 int a;
