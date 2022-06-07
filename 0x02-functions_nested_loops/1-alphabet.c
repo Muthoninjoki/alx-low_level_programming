@@ -4,7 +4,7 @@
 /**
  * main - check the code
  *
- * print_alphabet - prints a to z
+ * print_alphabet() - prints a to z
  *
  * Return: Always 0
  */
