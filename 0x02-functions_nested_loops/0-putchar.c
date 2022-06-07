@@ -10,7 +10,6 @@
  */
 
 int main(void)
-
 {
 char c[8] = "_putchar";
 int a;
