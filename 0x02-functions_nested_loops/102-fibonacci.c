@@ -11,7 +11,7 @@
 int main(void)
 {
 int i;
-long unsigned int t1 = 0, t2 = 1, t3;
+unsigned long t1 = 0, t2 = 1, t3;
 for (i = 0; i < 50; i++)
 {
 t3 = t1 + t2;
