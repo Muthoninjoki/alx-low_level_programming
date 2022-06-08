@@ -9,7 +9,6 @@ int main(void)
 unsigned long int i;
 unsigned long int a = 1;
 unsigned long int b = 2;
-unsigned long int c = 1000000000;
 unsigned long int d;
 unsigned long int e;
 unsigned long int f;
