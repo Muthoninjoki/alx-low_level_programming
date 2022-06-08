@@ -16,7 +16,7 @@ int nextTerm = t1 + t2;
 printf("Enter the number of terms: ");
 scanf("%d", &n);
 printf("Fibonacci Series: %d, %d, ", t1, t2);
-for (i = 3; i <= 50; i++)
+for (i = 3; i <= 49; i++)
 {
 printf("%d, ", nextTerm);
 t1 = t2;
