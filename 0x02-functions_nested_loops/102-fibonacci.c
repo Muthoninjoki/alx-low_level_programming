@@ -11,15 +11,13 @@
 int main(void)
 {
 int i;
-int t1 = 1, t2 = 2;
-int nextTerm = t1 + t2;
-printf("Enter the number of terms: ");
+int t1 = 0, t2 = 1, t3;
 for (i = 0; i < 50; i++)
 {
-printf("%lu", nextTerm);
+t3 = t1 + t2;
+printf("%lu", t3);
 t1 = t2;
-t2 = nextTerm;
-nextTerm = t1 + t2;
+t2 = t2;
 if (i == 49)
 printf("\n");
 else
