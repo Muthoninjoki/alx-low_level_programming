@@ -12,79 +12,28 @@
 
 void print_to_98(int n)
 {
-int m;
-n = 98;
-if (n < m)
+int a = 0;
+if (n > 98)
 {
-for (; n <= m; n++)
-i{
-if (n == 98)
+for (a = n; a >= 98; a--)
 {
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
-break;
+if (a != n)
+{
+printf(", ");
+}
+printf("%d", a);
+}
 }
 else
 {
-if (n >= 9 && n <=9)
+for (a = n; a <= 98 ; a++)
 {
-if (n < 0)
+if (a != n)
 {
-_putchar('-');
-_putchar((n * -1) + '0');
-_putchar(',');
-_putchar(' ');
+printf(", ");
 }
-else if (n >= 0)
-{
-_putchar(n + '0');
-_putchar(',');
-_putchar(' ');
+printf("%d", a);
 }
 }
-else if (n >= 100)
-{
-_putchar((n / 100) + '0');
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
-_putchar(',');
-_putchar(' ');
-}
-else
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
-_putchar(',');
-_putchar(' ');
-}
-}
-}
-_putchar('\n');
-}
-else if (n == 0)
-{
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
-_putchar('\n');
-}
-else
-{
-for (; n >= end; n--)
-{
-if (n == 98)
-{
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
-break;
-}
-else
-{
-_putchar((n / 10) + '0');
-_putcahr((n % 10) + '0');
-_putchar(',');
-_putchar(' ');
-}
-}
-_putchar('\n');
-}
-return;
+putchar('\n');
 }
