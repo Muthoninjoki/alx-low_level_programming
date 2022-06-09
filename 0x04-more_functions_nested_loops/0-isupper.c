@@ -5,7 +5,7 @@
  * _isupper - check description
  * Description: checks for uppercase character
  * @c:input
- * Return: 0
+ * Return: 1 if c is uppercase otherwise 0
  */
 
 int _isupper(int c)
