@@ -16,11 +16,11 @@ for (a = 0; a < n; a++)
 {
 for (b = 0; b < a; b++)
 _putchar(' ');
-
+}
 _putchar('\\');
 
-if (a == (n - 1))
-continue;
+if (a <= 0)
+{
 _putchar('\n');
 }
 }
