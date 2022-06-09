@@ -19,7 +19,7 @@ _putchar(' ');
 
 _putchar('\\');
 
-if (a == (m - 1))
+if (a == (n - 1))
 continue;
 _putchar('\n');
 }
