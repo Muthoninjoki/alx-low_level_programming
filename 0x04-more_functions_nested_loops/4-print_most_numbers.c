@@ -3,7 +3,7 @@
 
 /**
  * print_most_numbers - check description
- * Description: prints the numbers from 0 to 9 
+ * Description: prints the numbers from 0 to 9
  * Return: void
  */
 
