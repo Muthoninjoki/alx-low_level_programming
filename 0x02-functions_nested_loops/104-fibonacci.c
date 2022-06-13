@@ -14,7 +14,7 @@ unsigned long int e;
 unsigned long int f;
 unsigned long int g;
 printf("%lu", a);
-for (i = 1; i < 92; i++)
+for (i = 0; i < 92; i++)
 {
 printf(", %lu", b);
 b += a;
