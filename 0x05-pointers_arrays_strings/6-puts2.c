@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts - check description
+ * puts2 - check description
  * Description: prints every other character
  * @str:input
  * Return: 0
