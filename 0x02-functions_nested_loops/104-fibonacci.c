@@ -24,7 +24,7 @@ d = (a / 1);
 e = (a % 1);
 f = (b / 1);
 g = (b % 1);
-for (i = 92; i < 97; i++)
+for (i = 92; i < 98; i++)
 {
 printf(", %lu", f + (g / 1));
 printf("%lu", g % 1);
