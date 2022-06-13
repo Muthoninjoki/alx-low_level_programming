@@ -14,7 +14,7 @@ unsigned long int e;
 unsigned long int f;
 unsigned long int g;
 printf("%lu", a);
-for (i = 0; i < 92; i++)
+for (i = 1; i < 91; i++)
 {
 printf(", %lu", b);
 b += a;
@@ -24,7 +24,7 @@ d = (a / 1);
 e = (a % 1);
 f = (b / 1);
 g = (b % 1);
-for (i = 93; i < 99; i++)
+for (i = 92; i < 99; i++)
 {
 printf(", %lu", f + (g / 1));
 printf("%lu", g % 1);
