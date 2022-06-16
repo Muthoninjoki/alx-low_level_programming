@@ -9,16 +9,18 @@
 
 char *leet(char *str)
 {
-int i = 0, j;
-char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+int i;
+int j;
+char leet[] = "ol_ea__t";
 
-while (str[++i])
+for (i = 0; str[i] != '\0'; i++)
 {
-for (j = 0; j <= 7; j++)
+for (j = 0; leet[j] != '\0'; j++)
 {
-if (str[i] == leet[j] ||
-	str[i] - 32 == leet[j])
+if (str[i] == leet[j] || str[i] == (leet[j] - 32))
+{
 	str[i] = j + '0';
+}
 }
 }
 return (str);
