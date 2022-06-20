@@ -15,9 +15,17 @@ int n, i = 0, j = 0;
 
 for (n = 0; n < size; n++)
 {
-i += *(a + (size * n) + n);
-j += *(a + (size * n + size - 1 - n));
+i += a[n];
+a += size;
 }
-printf("%d, ", i);
-printf("%d\n", j);
+
+a -= size;
+
+for (n = 0; n < size; n++)
+{
+j += a[n];
+a -= size;
+}
+
+printf("%d, %d\n", i, j);
 }
