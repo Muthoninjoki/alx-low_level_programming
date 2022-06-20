@@ -12,9 +12,10 @@
 void print_diagsums(int *a, int size)
 {
 int n, i = 0, j = 0;
+
 for (n = 0; n < size; n++)
 {
-i += *(a + (size * n + n));
+i += *(a + (size * n) + n);
 j += *(a + (size * n + size - 1 - n));
 }
 printf("%d, ", i);
