@@ -11,11 +11,11 @@
 
 void print_diagsums(int *a, int size)
 {
-int n, i = 0, j = 0;
+int n, sum1 = 0, sum2 = 0;
 
 for (n = 0; n < size; n++)
 {
-i += a[n];
+sum1 += a[n];
 a += size;
 }
 
@@ -23,9 +23,9 @@ a -= size;
 
 for (n = 0; n < size; n++)
 {
-j += a[n];
+sum2 += a[n];
 a -= size;
 }
 
-printf("%d, %d\n", i, j);
+printf("%d, %d\n", sum1, sum2);
 }
