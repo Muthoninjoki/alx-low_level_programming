@@ -4,7 +4,7 @@
  * _print_rev_recursion - check description
  * Description: function that prints a string
  * in reverse
- * @s string
+ * @s:string
  * Return: 0
  */
 
