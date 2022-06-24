@@ -24,6 +24,11 @@ int main(int argc, char *argv[])
 
 			curr_char = argv[i][j];
 
+			if (curr_char == '\0')
+			{
+				break;
+			}
+
 			if (curr_char < '0' || curr_char > '9')
 			{
 				printf("Error\n");
