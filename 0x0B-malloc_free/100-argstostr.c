@@ -41,3 +41,19 @@ return (NULL);
 }
 return (s);
 }
+
+/**
+* len: length
+* @str:string
+* Return: len
+*/
+int len(char *str)
+{
+int len = 0;
+if (str != NULL)
+{
+while (str[len])
+len++;
+}
+return (len);
+}
