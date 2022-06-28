@@ -20,9 +20,9 @@ if (str == NULL)
 {
 return (NULL);
 }
-for (i = 0; str[i]; i++)
+for (i = 0; str[i] != '\0'; i++)
 len++;
-n = malloc(sixeof(cahr) * (len + 1));
+n = malloc(sizeof(char) * (len + 1));
 
 if (n == NULL)
 {
