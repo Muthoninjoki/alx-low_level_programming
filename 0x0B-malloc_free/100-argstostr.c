@@ -20,7 +20,7 @@ if (ac == 0 || av == NULL)
 return (NULL);
 }
 while (ac--)
-i += (len(av[ac]) + 1;
+i += (len(av[ac]) + 1);
 s = (char *) malloc(i + 1);
 
 if (s != NULL)
