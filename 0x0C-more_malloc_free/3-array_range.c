@@ -24,7 +24,7 @@ m = malloc(sizeof(*m) * ((max - min) + 1));
 
 if (m != NULL)
 {
-for (i = min; min <= max; i++)
+for (i = min; i <= max; i++)
 {
 m[p] = i;
 p++;
