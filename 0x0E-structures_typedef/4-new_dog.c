@@ -32,7 +32,7 @@ free(newer->name);
 free(newer);
 return (NULL);
 }
-for (m = 0; m <= i; z++)
+for (m = 0; m <= i; m++)
 {
 (*newer).name[m] = name[m];
 }
