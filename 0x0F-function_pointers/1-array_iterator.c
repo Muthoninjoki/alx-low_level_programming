@@ -21,6 +21,6 @@ return;
 while (size-- > 0)
 {
 action(*array);
-araay++;
+array++;
 }
 }
