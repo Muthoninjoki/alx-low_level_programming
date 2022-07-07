@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
-* get_op_function - check description
+* get_op_func - check description
 * Description: Selects the correct function to perform the op
 * @s:op
 * Return: a pointer to the function
