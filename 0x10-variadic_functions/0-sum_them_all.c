@@ -16,7 +16,7 @@ va_list vl;
 int sum = 0;
 unsigned int i;
 
-va_start9vl, n);
+va_start(vl, n);
 
 if (n != 0)
 {
