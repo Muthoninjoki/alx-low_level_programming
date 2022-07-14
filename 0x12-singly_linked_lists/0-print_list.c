@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
 * print_list - check description
@@ -19,7 +21,7 @@ printf("[%d] %s\n", cursor->len, cursor->str);
 else
 printf("[0] (nil)\n");
 count += 1;
-cursor = cusor->next;
+cursor = cursor->next;
 }
 
 return (count);
