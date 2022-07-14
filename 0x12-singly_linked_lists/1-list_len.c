@@ -11,14 +11,12 @@
 
 size_t list_len(const list_t *h)
 {
-size_t elements = 0;
+int n = 0;
 
-while (h)
+while (h != NULL)
 {
-elements++;
+n++;
 h = h->next;
 }
-
-return (elements);
+return (n);
 }
-
