@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
-* add_note - check description
+* add_node - check description
 * Description: adds a new node at the beginning of a list
 * @head:pointer
 * @str:string
@@ -19,7 +19,6 @@ list_t *new_node = malloc(sizeof(list_t));
 if (new_node == NULL)
 return (NULL);
 for (l = 0; str[l]; l++)
-;
 new_node->l = l;
 new_node->str = strdup(str);
 new_node->next = (*head);
