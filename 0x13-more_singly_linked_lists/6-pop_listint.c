@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
 * pop_listint - check description
@@ -9,16 +11,16 @@
 
 int pop_listint(listint_t **head)
 {
-listint_t *popped;
-int context;
+int d = 0;
+listint_t *t;
 
-if(*head == NULL)
+if (*head == NULL)
 return (0);
 
-popped = *head;
-context = popped->n;
-free(popped);
-
-*head = (*head)->next;
-return (context);
+d = (*head)->n;
+t = *head;
+(*head) = (*head)->next;
+free(t);
+return (d);
 }
+
