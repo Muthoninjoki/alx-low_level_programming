@@ -25,7 +25,7 @@ op = open(filename, O_RDONLY);
 re = read(op, buffer, letters);
 wr = write(STDOUT_FILENO, buffer, re);
 
-if (op == - 1 || re == - 1 || wr == - 1 || wr != re)
+if (op == -1 || re == -1 || wr == -1 || wr != re)
 {
 free(buffer);
 return (0);
