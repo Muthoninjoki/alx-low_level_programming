@@ -13,6 +13,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	char password[7], *codex;
 	int len = strlen(argv[1]), i, tmp;
+
 	codex = "A-CHRDw87lNS0E9B2TibgpnMVys5XzvtOGJcYLU+4mjW6fxqZeF3Qa1rPhdKIouk";
 
 	tmp = (len ^ 59) & 63;
@@ -50,8 +51,3 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	printf("%s", password);
 	return (0);
 }
-
-
-
-
-
