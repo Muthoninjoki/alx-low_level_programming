@@ -1,5 +1,9 @@
-#ifndef __MAIN__
-#define __MAIN__
+#ifndef MAIN_H
+#define MAIN_H
+
+
+#include <stdio.h>
+#include <stdlib.h>
 
 int _putchar(char c);
 int _islower(int c);
@@ -24,4 +28,4 @@ char *_strstr(char *haystack, char *needle);
 int nrandom();
 
 
-#endif /* __MAIN__*/
+#endif /* MAIN_H */
