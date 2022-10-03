@@ -1,4 +1,5 @@
 #include "hash_tables.h"
+#include <stdlib.h>
 
 /**
 * Key_index - Get the index at which a key pair should be stored
