@@ -4,13 +4,13 @@
 /**
 * hash_table_create - creates a hash table
 * @size:size of array
-* Return: if fails - NULL,
-* otherwise -  a pointer to the newly created hash table
+* Return:pointer to new hash table
+* otherwise - NULL
 */
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *ht;
-	unsigned long int i;
+	unsigned int i = 0;
 
 	ht = malloc(sizeof(hash_table_t));
 	if (ht == NULL)
