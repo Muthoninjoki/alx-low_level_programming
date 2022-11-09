@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Describes the perimeter of the island in grid"""
+"""Defines the perimeter of the island in grid"""
 
 
 def island_perimeter(grid):
@@ -7,7 +7,7 @@ def island_perimeter(grid):
 
     0 represents a water zone and 1 represents a land zone
     Args:
-	grid (lists)
+	grid (lists): A list of integers representing an island.
     Returns:
 	Perimeter of the island defined in grid
     """
