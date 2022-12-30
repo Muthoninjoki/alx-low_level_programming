@@ -11,17 +11,15 @@
 int main(void)
 {
 int i;
-unsigned long t1 = 0, t2 = 1, t3;
-for (i = 0; i < 50; i++)
+unsigned long t1 = 1, t2 = 2, t3 = 0;
+for (i = 0; i < 49; i++)
 {
+printf("%ld, ", t1);
 t3 = t1 + t2;
-printf("%lu", t3);
 t1 = t2;
-t2 = t2;
-if (i == 49)
-printf("\n");
-else
-printf(", ");
+t2 = t3;
+if (i == 48)
+printf("%ld\n", t1);
 }
 return (0);
 }
